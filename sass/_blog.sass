@@ -1,0 +1,143 @@
+.blog
+	.slick
+		&-slide
+			outline: none
+	&-buttons
+		margin-top: 21px
+		position: absolute
+		right: 0
+	&-one
+		&__item
+			button
+				padding: 0
+				margin: 0
+				background-color: transparent
+				border: none
+				cursor: pointer
+				&:hover
+					opacity: 0.8
+			display: inline-block
+			vertical-align: top
+			position: relative
+			&:nth-child(1)
+				width: 30%
+				margin-right: 2%
+			&:nth-child(2)
+				width: 33%
+				margin-right: 2%
+			&:nth-child(3)
+				width: 30%
+	&-slider
+		&__item
+			margin: 0 10px
+		&__title
+			margin: 0
+			font-size: 30px
+			font-weight: 300
+		&__text
+			font-size: 14px
+			letter-spacing: 0.2px
+			font-weight: 300
+			line-height: 1.4
+			margin: 0
+			margin-top: 18px
+	&-two
+		padding-top: 25px
+		padding-bottom: 60px
+		&__item
+			display: inline-block
+			float: left
+			width: 20.21%
+			margin-right: 2%
+			position: relative
+			&:nth-child(4)
+				width: 30%
+				padding: 0 20px
+				padding-top: 120px
+				min-height: 270px
+				margin-right: 0
+				padding-bottom: 0px
+				background-color: #86e7f0
+				height: 100%
+				text-align: center
+				color: #fff
+				margin-bottom: 25px
+			&:nth-child(8)
+				width: 30%
+				padding: 25px 30px
+				margin-right: 0
+				background-color: $bgbutton
+				text-align: center
+				color: #fff
+				border-bottom: 7px solid $pink
+				padding-bottom: 0px
+		&__title
+			font-size: 21px
+			font-weight: 300
+			margin: 0
+			margin-bottom: 15px
+		&__date
+			font-size: 14px
+			display: inline-block
+			font-weight: 300
+			margin-right: 12px
+		&__author
+			font-weight: 700
+			font-size: 14px
+			display: inline-block
+		&__text
+			margin-top: 20px
+			font-size: 14px
+			font-weight: 300
+			line-height: 1.5
+			letter-spacing: 0.2px
+			text-align: justify
+		&__weeks
+			width: 125px
+			height: 125px
+			border-radius: 50%
+			text-align: center
+			border: 4px solid #fff
+			background-color: $whitepink
+			color: #fff
+			position: absolute
+			top: -20px
+			left: 50%
+			transform: translateX(-50%)
+			font-size: 21px
+			line-height: 1
+			span
+				font-size: 72px
+				display: block
+				font-weight: 700
+				padding-top: 8px
+		&__big
+			font-size: 40px
+			font-weight: 700
+			display: block
+			margin-bottom: 12px
+		&__descr
+			margin: 0
+			font-size: 22px
+			line-height: 1.4
+		&__btn
+			+button(rgba(0,0,0,0.15))	
+			&-pinked
+				+button($pink)
+		&__subscribe
+			font-size: 24px
+			margin: 0
+			text-transform: uppercase
+			font-weight: 300
+		&__about
+			margin: 0
+			text-align: left
+			font-weight: 300
+			text-align: justify
+			letter-spacing: 0.2px
+			margin-top: 20px
+		&__input
+			margin-top: 15px
+			padding: 8px
+
+

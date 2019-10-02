@@ -1,0 +1,46 @@
+.modal
+	position: fixed
+	transition: 0.2s
+	top: 120%
+	left: 0%
+	bottom: 0
+	right: 0
+	background-color: rgba(0,0,0,0.8)
+	&-active
+		top: 0%
+	&-dialog
+		position: relative
+		max-width: 300px
+		background-color: #fff
+		margin: 70px auto
+		text-align: center
+		padding: 25px
+		padding-top: 55px
+		color: #111
+	&-close
+		position: absolute
+		right: 10px
+		top: 15px
+		border: none
+		background-color: transparent
+		font-size: 36px
+		color: $pink
+		line-height: 0.5
+		cursor: pointer
+
+	&__title
+		margin: 0
+		font-size: 24px
+		font-weight: 300
+		margin-bottom: 20px
+	&__input
+		display: inline-block
+		margin-bottom: 12px
+		padding: 8px 10px
+	&__btn
+		margin-top: 25px
+		background-color: $whitepink
+		border: none
+		padding: 10px 15px
+		color: #fff
+		cursor: pointer

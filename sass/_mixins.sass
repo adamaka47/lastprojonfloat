@@ -1,0 +1,22 @@
+@mixin container($min-width, $max-width, $paddings)
+	min-width: $min-width
+	max-width: $max-width
+	padding: 0 $paddings
+	margin: 0 auto
+
+@mixin button($bg)
+	min-width: 190px
+	padding: 11px 29px
+	text-transform: uppercase
+	color: #fff
+	background-color: $bg
+	font-weight: 300
+	font-size: 20px
+	border: none
+	cursor: pointer
+	border-radius: 7px
+	margin-bottom: 20px
+	margin-top: 15px
+	transition: opacity 0.2s
+	&:hover
+		opacity: 0.8

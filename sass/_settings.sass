@@ -1,0 +1,52 @@
+*, *::after, *::before
+	box-sizing: border-box
+
+body
+	font-family: 'Roboto Slab', sans-serif
+	color: $text-color
+
+.clearfix
+	clear: both
+	display: table
+	width: 100%
+
+ul
+	padding: 0
+	margin: 0
+	list-style-type: none
+
+a
+	text-decoration: none
+	display: inline-block
+
+img
+	display: block
+	max-width: 100%
+	height: auto
+
+.slick-slider
+	user-select: auto
+
+.container
+	+container(280px, 1054px, 15px)
+	position: relative
+
+.scroll-home
+	display: none
+	width: 50px
+	height: 50px
+	border-radius: 50%
+	border: none
+	background-color: $whitepink
+	padding: 10px
+	position: fixed
+	right: 25px
+	bottom: 55px
+	cursor: pointer
+	transition: 0.25s
+	&:hover
+		background-color: $pink
+
+button, input, textarea
+	&:focus
+		outline: none

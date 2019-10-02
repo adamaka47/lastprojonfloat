@@ -1,0 +1,24 @@
+.footer
+	background-color: $bgbutton
+	text-align: center
+	width: 100%
+	.container
+		padding-top: 30px
+		padding-bottom: 45px
+	&__link
+		color: $whitepink
+		text-decoration: underline
+	&-socials
+		position: absolute
+		right: -35px
+		top: 45px
+		&__link
+			margin-right: 12px
+			&:last-child
+				margin-right: 0
+
+@media (max-width: 1315px)
+	.footer
+		&-socials
+			right: 35px
+
